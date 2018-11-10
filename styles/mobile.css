@@ -13,7 +13,7 @@ font-weight: 700;
   width: 375px;
   /* height: 667px; */
   margin: 0 auto;
-  background-image: url("/images/main.gif"); /* The image used */
+  background-image: url(".../images/main.gif"); /* The image used */
  height: 667px; /* You must set a specified height */
  background-position: center; /* Center the image */
  background-repeat: no-repeat; /* Do not repeat the image */
