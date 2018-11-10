@@ -1,0 +1,144 @@
+/* text styles */
+body {
+  font-family: "Lato", san-sans-serif;
+font-weight: 700;
+  background-color: black;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.container {
+  width: 375px;
+  /* height: 667px; */
+  margin: 0 auto;
+  background-color: white;
+ height: 667px; /* You must set a specified height */
+}
+
+.nav {
+  height: 64px;
+  background-color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.logohorizontalmain {
+  width: 135px;
+}
+
+.statusbar {
+  width: 375px;
+}
+
+.button {
+  border: 1px solid #F46036;
+  font-family: Lato;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+  width: 343px;
+  height: 40px;
+  background-color: #F46036;
+  position: fixed;
+  bottom: 60px;
+  box-sizing: border-box;
+  padding: 9px;
+  margin-left: 16px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+  margin-top: -10px;
+}
+
+p.member {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+p.label {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  margin-left: 16px;
+  margin-bottom: -20px;
+}
+
+input[type=text], select {
+    width: 247px;
+    font-family: "Lato";
+    font-size: 12px;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0 20px 16px;
+    /* display: inline-block; */
+    border: 1px solid rgb(0,0,0, .25);
+    box-sizing: border-box;
+
+}
+
+form {
+  float: left;
+}
+
+form.right {
+  float: right;
+  margin-right: 16px;
+}
+
+.camera {
+  width: 80px;
+  padding-top: 20px;
+  margin-left: 16px;
+}
+
+.man, .woman {
+  width: 30px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.womanchoice {
+  display: inline-block;
+  margin-left: -100px;
+  margin-right: 16px;
+
+
+}
+
+.manchoice {
+  float:left;
+  display: inline-block;
+  margin-left: 16px;
+}
+
+p.gender {
+  font-size: 12px;
+  font-weight: 300;
+  color: #4a4a4a;
+}

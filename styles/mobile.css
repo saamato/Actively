@@ -1,0 +1,150 @@
+/* text styles */
+body {
+  font-family: "Lato", san-sans-serif;
+font-weight: 700;
+  background-color: black;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+
+}
+
+.container {
+  width: 375px;
+  /* height: 667px; */
+  margin: 0 auto;
+  background-image: url("/images/main.gif"); /* The image used */
+ height: 667px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+  /* padding: 0px 16px 0 16px; */
+}
+
+.button {
+  border: 1px solid #F46036;
+  font-family: Lato;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+  width: 343px;
+  height: 40px;
+  background-color: #F46036;
+  position: bottom;
+  box-sizing: border-box;
+  padding: 9px;
+  margin-left: 16px;
+}
+
+.button1, .button2 {
+      width: 343px;
+      height: 40px;
+      padding: 9px;
+      border: 1px solid red;
+      margin-left: 16px;
+      box-sizing: border-box;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* .bottom {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 60px;
+} */
+
+.main {
+  width: 375px;
+}
+
+
+h1 {
+  font-family: "Lato", san-sans-serif;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin-top: 10px
+
+}
+
+.logo {
+  width: 50%;
+  grid-column: 1/3;
+  padding: 250px 0px 0px 0px;
+}
+
+p {
+  margin-top: -10px;
+}
+
+p.member {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+p.label {
+  font-size: 12px;
+  font-weight: 900;
+  text-align: left;
+  margin-left: 16px;
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+input[type=text], select {
+  opacity: .75;
+    width: 343px;
+    font-family: "Lato";
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    /* display: inline-block; */
+    border: none;
+    box-sizing: border-box;
+}
+
+input[type=text1], select {
+  opacity: .75;
+
+    width: 343px;
+    font-family: "Lato";
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    /* display: inline-block; */
+    border: none;
+    -webkit-text-security: disc;
+    box-sizing: border-box;
+}
+
+.statusbar {
+  width: 375px;
+}
