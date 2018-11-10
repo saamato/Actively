@@ -13,7 +13,7 @@ font-weight: 500;
   height: 667px;
   margin: 0 auto;
   background-color: white;
-  background-image: url("/images/map.png"); /* The image used */
+  background-image: url("../images/map.png"); /* The image used */
  background-position: center; /* Center the image */
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover; /* Resize the background image to cover the entire container */
