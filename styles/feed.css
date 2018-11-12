@@ -1,0 +1,316 @@
+/* text styles */
+body {
+  font-family: "Lato", san-sans-serif;
+font-weight: 500;
+  background-color: black;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.container {
+  width: 375px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+.nav {
+  height: 64px;
+  background-color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.logohorizontalmain {
+  width: 135px;
+}
+
+.statusbar {
+  width: 375px;
+}
+
+.button {
+  border: 1px solid #F46036;
+  font-family: Lato;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+  width: 343px;
+  height: 40px;
+  background-color: #F46036;
+  box-sizing: border-box;
+  padding: 9px;
+  margin-left: 16px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+footer.bottom {
+  width: 375px;
+  height: 49px;
+  /* background-color: green; */
+  background-color: rgb(250, 250, 250, .9);
+  border-top: 1px solid rgb(74,74,74,.1);
+  bottom: 0;
+  position: fixed;
+}
+
+.activity {
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 49px;
+  float:left;
+}
+
+.exercise {
+  width: 30px;
+  margin-top: 10px;
+}
+
+.profile {
+  width: 30px;
+  margin-top: 10px;
+  float:right;
+  margin-right: 49px;
+}
+
+ul.exercises {
+  width: 359px;
+  background-color: white;
+  float: right;
+  list-style: none;
+  margin-top: -20px;
+  padding-left: 16px;
+  /* padding-right: 16px; */
+  padding-top: 18.5px;
+  padding-bottom: 18.5px;
+  border-bottom: 1px solid rgb(74,74,74,.3);
+  margin-bottom: 18.5px;
+}
+
+li.decision {
+  /* margin-left: 16px; */
+  margin-right: 33.45312309px;
+  float: left;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+img.calendar {
+  width: 16px;
+margin-left: 10px;
+}
+
+img.chartactivity {
+  width: 375px;
+}
+
+p.numbers_steps {
+  font-size: 25px;
+  grid-column: 2/3;
+  margin-left: -15px;
+  margin-right: 10px;
+  text-align: left;
+  margin-top: -30px;
+}
+
+p.numbers_activity {
+  font-size: 25px;
+  grid-column: 4/5;
+  margin-left: -15px;
+  margin-right: 10px;
+  text-align: left;
+
+  margin-top: -30px;
+
+
+}
+
+p.numbers_calories {
+  grid-column: 6/7;
+  font-size: 25px;
+  margin-left: -15px;
+  margin-right: 10px;
+  text-align: left;
+  margin-top: -30px;
+
+
+}
+
+p.steps {
+  grid-column: 2/3;
+  margin-left: -15px;
+  margin-top: -2px;
+
+
+}
+
+p.activity {
+  grid-column: 4/5;
+  margin-left: -15px;
+  margin-top: -2px;
+
+
+}
+
+p.calories {
+  grid-column: 6/7;
+  margin-left: -15px;
+  margin-top: -2px;
+
+}
+
+section.feedprogress {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  /* margin-top: 30px; */
+  margin-left: 16px;
+  margin-bottom: 20px;
+
+}
+
+img.steps, img.calories, img.mins {
+  width: 32px;
+}
+
+p.steps, p.activity, p.calories {
+font-size: 12px;
+font-weight: 600;
+text-align: left;
+/* margin-top: 10px; */
+margin-bottom: 20px;
+ }
+
+ img.steps {
+   grid-column: 1/2;
+ }
+
+ img.mins {
+   grid-column: 3/5;
+ }
+ img.calories {
+   grid-column: 5/7;
+ }
+
+
+ .direction {
+    font-weight: bold;
+    font-size: 1.05em;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    line-height: .5em;
+    text-align: left;
+    width: 375;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-top: 16px;
+    border-top-style: solid;
+    border-top-color: #08678F;
+    border-top-width: 1px;
+
+  }
+/* This is for the very first directional
+div element so I could get rid of the line at the top */
+  .top {
+    font-weight: 400;
+    font-size: 12px;
+    /* letter-spacing: .3px; */
+    text-transform: uppercase;
+    line-height: .5em;
+    width: 375;
+    padding-left: 16px;
+    padding-top: 16px;
+    text-align: left;
+
+  }
+
+  ul li.a{
+    padding: 16px;
+    height: 63px;
+    border-bottom: 1px solid rgb(74,74,74,.1);
+
+  }
+
+  ul li.b{
+    padding: 16px;
+    height: 63px;
+
+  }
+
+
+li.arrow {
+  /* width: 33.3%; */
+  list-style-type: none;
+  float: right;
+  padding-right: 16px;
+  margin-top: -10%;
+}
+
+.rightarrow {
+width: 20px;
+}
+
+img.mapsquare {
+  width: 63px;
+  list-style-type: none;
+  float:left;
+  padding-right: 16px;
+  padding-top: 0px;
+}
+
+li.information {
+  list-style-type: none;
+  text-align: left;
+  padding-top: 5px;
+
+}
+
+ul.main {
+  padding-bottom: 60px;
+}
+
+h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+p.a {
+  font-size: 12px;
+  color: #4a4a4a;
+  word-spacing: 30px;
+
+}

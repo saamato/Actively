@@ -1,0 +1,354 @@
+/* text styles */
+body {
+  font-family: "Lato", san-sans-serif;
+font-weight: 500;
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+
+}
+
+.container {
+  width: 375px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ebebeb;
+  padding-bottom: 10px;
+
+}
+
+.nav {
+  height: 154px;
+  background-color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.logohorizontalmain {
+  width: 135px;
+}
+
+.statusbar {
+  width: 375px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+footer.bottom {
+  width: 375px;
+  height: 49px;
+  /* background-color: green; */
+  background-color: rgb(250, 250, 250, .9);
+  border-top: 1px solid rgb(74,74,74,.1);
+  bottom: 0;
+  position: fixed;
+}
+
+img.activity {
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 49px;
+  float:left;
+}
+
+.exercise {
+  width: 30px;
+  margin-top: 10px;
+}
+
+.profile {
+  width: 30px;
+  margin-top: 10px;
+  float:right;
+  margin-right: 49px;
+}
+
+.sara {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  box-shadow: 0px 0px 10px grey;
+  margin-top: -90px;
+  margin-bottom: 10px;
+}
+
+p.location {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+p.left {
+  font-size: 12px;
+  font-weight: 600;
+  float: left;
+  margin-left: 16px;
+}
+
+p.right {
+  font-size: 12px;
+  font-weight: 300;
+  float: right;
+  margin-right: 16px;
+}
+
+.fa-location-arrow {
+  margin-right: 10px;
+}
+
+.fa-cog {
+  color: white;
+  float: right;
+  margin-right: 16px;
+  margin-top: 9px;
+
+}
+
+.arrow {
+  width: 25px;
+  float: left;
+  margin-top: 9px;
+  margin-left: 9px;
+}
+
+section.friends_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+section.devices {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+
+
+img.seeley {
+  grid-column: 1/2;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 22px;
+  margin-left: 16px;
+
+}
+
+img.tempe {
+  grid-column: 2/3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 22px;
+
+
+}
+
+img.angela {
+  grid-column: 3/4;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 22px;
+
+}
+
+img.jack {
+  grid-column: 4/5;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+p.friendslist {
+font-size: 12px;
+font-weight: 600;
+text-align: center;
+height: 14px;
+margin-top: 10px;
+margin-left: 16px;
+margin-right: 10px;
+margin-bottom: 20px;
+
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+   -moz-column-count: 4; /* Firefox */
+   column-count: 4;
+
+   -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+   -moz-column-gap: 30px; /* Firefox */
+   column-gap: 30px;
+
+ }
+
+ p.steps, p.activity, p.calories {
+ font-size: 12px;
+ font-weight: 600;
+ text-align: left;
+ margin-top: 10px;
+ margin-bottom: 20px;
+  }
+
+ p.goals {
+ font-size: 12px;
+ font-weight: 600;
+ text-align: center;
+ height: 14px;
+ padding-bottom: 50px;
+ margin-top: 10px;
+   }
+
+ img.watch {
+   grid-column: 1/3;
+   width: 90%;
+   margin-left: -12px;
+   /* margin-top: 20px; */
+
+ }
+
+ p.device {
+   grid-column: 3/5;
+   font-size: 12px;
+   font-weight: 600;
+   padding-top: 65px;
+   text-align: left;
+   margin-left: -30px;
+
+ }
+
+ p.sync {
+   grid-column: 3/5;
+   font-size: 12px;
+   font-weight: 300;
+   text-align: left;
+   margin-top: -60px;
+   margin-left: -30px;
+
+ }
+
+ section.goals {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-auto-rows: auto;
+   margin-top: 30px;
+   margin-left: 16px;
+   padding-bottom: 50px;
+ }
+
+ section.goals_seeley {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-auto-rows: auto;
+   /* margin-top: 30px; */
+   margin-left: 16px;
+   margin-bottom: 20px;
+
+ }
+
+ img.steps, img.calories, img.mins {
+   width: 32px;
+ }
+
+ img.steps {
+   grid-column: 1/2;
+ }
+
+ img.mins {
+   grid-column: 3/5;
+ }
+ img.calories {
+   grid-column: 5/7;
+ }
+
+
+
+ p.numbers_steps {
+   font-size: 25px;
+   grid-column: 2/3;
+   margin-left: -15px;
+   margin-right: 10px;
+   text-align: left;
+   margin-top: -30px;
+ }
+
+ p.numbers_activity {
+   font-size: 25px;
+   grid-column: 4/5;
+   margin-left: -15px;
+   margin-right: 10px;
+   text-align: left;
+
+   margin-top: -30px;
+
+
+ }
+
+ p.numbers_calories {
+   grid-column: 6/7;
+   font-size: 25px;
+   margin-left: -15px;
+   margin-right: 10px;
+text-align: left;
+margin-top: -30px;
+
+
+ }
+
+ p.steps {
+   grid-column: 2/3;
+   margin-left: -15px;
+   margin-top: -2px;
+
+
+ }
+
+ p.activity {
+   grid-column: 4/5;
+   margin-left: -15px;
+   margin-top: -2px;
+
+
+ }
+
+ p.calories {
+   grid-column: 6/7;
+   margin-left: -15px;
+   margin-top: -2px;
+
+ }

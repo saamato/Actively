@@ -23,7 +23,7 @@ font-weight: 700;
 
 .button {
   border: 1px solid #F46036;
-  font-family: Lato;
+  font-family: "Lato";
   font-weight: 700;
   color: white;
   font-size: 16px;
@@ -31,7 +31,6 @@ font-weight: 700;
   width: 343px;
   height: 40px;
   background-color: #F46036;
-  position: bottom;
   box-sizing: border-box;
   padding: 9px;
   margin-left: 16px;
@@ -41,7 +40,7 @@ font-weight: 700;
       width: 343px;
       height: 40px;
       padding: 9px;
-      border: 1px solid red;
+      border: 1px solid #F46036;
       margin-left: 16px;
       box-sizing: border-box;
 }
@@ -71,11 +70,6 @@ a:active {
 }
 
 
-/* .bottom {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 60px;
-} */
 
 .main {
   width: 375px;
@@ -103,6 +97,8 @@ h2 {
 
 p {
   margin-top: -10px;
+  line-height: 22px;
+margin-bottom: 5px;
 }
 
 p.member {

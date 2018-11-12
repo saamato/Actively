@@ -121,6 +121,7 @@ a:active {
 .top {
   grid-column: 1/3;
   height: 100vh;
+  margin-top: 100px;
 
 }
 
@@ -131,6 +132,7 @@ a:active {
 .logo {
   grid-column: 1/3;
   width: 40%;
+  margin-bottom: 30px;
 }
 
 .main {
