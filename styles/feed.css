@@ -47,25 +47,25 @@ font-weight: 500;
 
 /* unvisited link */
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: white;
+  color: black;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: white;
+  color: black;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: white;
+  color: black;
     text-decoration: none;
 }
 
@@ -202,7 +202,7 @@ img.steps, img.calories, img.mins {
 
 p.steps, p.activity, p.calories {
 font-size: 12px;
-font-weight: 600;
+font-weight: 400;
 text-align: left;
 /* margin-top: 10px; */
 margin-bottom: 20px;

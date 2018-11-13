@@ -1,0 +1,168 @@
+/* text styles */
+body {
+  font-family: "Lato", san-sans-serif;
+font-weight: 500;
+  background-color: black;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.container {
+  width: 375px;
+  height: 667px;
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+.nav {
+  height: 64px;
+  background-color: #4a4a4a;
+  /* margin-bottom: 20px; */
+}
+
+.logohorizontalmain {
+  width: 135px;
+}
+
+.statusbar {
+  width: 375px;
+}
+
+.fa-cog {
+  color: transparent;
+}
+
+.arrow {
+  width: 25px;
+  float: left;
+  margin-top: 9px;
+  margin-left: 9px;
+}
+
+.button {
+  border: 1px solid #F46036;
+  font-family: Lato;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+  width: 343px;
+  height: 40px;
+  background-color: #F46036;
+  box-sizing: border-box;
+  padding: 9px;
+  margin-left: 16px;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: white;
+    text-decoration: none;
+}
+
+footer.bottom {
+  width: 375px;
+  height: 49px;
+  /* background-color: green; */
+  background-color: rgb(250, 250, 250, .9);
+  border-top: 1px solid rgb(74,74,74,.1);
+  top: 618px;
+  position: fixed;
+}
+
+.activity {
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 49px;
+  float:left;
+}
+
+.exercise {
+  width: 30px;
+  margin-top: 10px;
+}
+
+.profile {
+  width: 30px;
+  margin-top: 10px;
+  float:right;
+  margin-right: 49px;
+}
+
+h1 {
+  font-size: 17px;
+  color: White;
+  font-weight: 600;
+  margin-top: 10px;
+  padding-right: 35px;
+}
+
+section.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 50px;
+}
+
+.fa-volume-up {
+  grid-column: 1/2;
+  font-size: 50px;
+  margin-bottom: 10px;
+
+}
+.fa-stopwatch {
+  font-size: 50px;
+  grid-column: 2/3;
+  margin-bottom: 10px;
+
+
+}
+
+.fa-pause-circle {
+  grid-column: 1/2;
+  font-size: 50px;
+  margin-bottom: 10px;
+
+
+}
+.fa-moon {
+  font-size: 50px;
+  grid-column: 2/3;
+  margin-bottom: 10px;
+
+}
+
+p.settings-l {
+  grid-column: 1/2;
+  margin-bottom: 50px;
+
+
+}
+
+p.settings-r {
+  grid-column: 2/3;
+  margin-bottom: 50px;
+
+}
