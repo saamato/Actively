@@ -117,55 +117,6 @@ h1 {
   padding-right: 35px;
 }
 
-section.options {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 50px;
-}
-
-.fa-volume-up {
-  grid-column: 1/2;
-  font-size: 50px;
-  margin-bottom: 10px;
-
-}
-.fa-stopwatch {
-  font-size: 50px;
-  grid-column: 2/3;
-  margin-bottom: 10px;
-
-
-}
-
-.fa-pause-circle {
-  grid-column: 1/2;
-  font-size: 50px;
-  margin-bottom: 10px;
-
-
-}
-.fa-moon {
-  font-size: 50px;
-  grid-column: 2/3;
-  margin-bottom: 10px;
-
-}
-
-p.settings-l {
-  grid-column: 1/2;
-  margin-bottom: 50px;
-
-
-}
-
-p.settings-r {
-  grid-column: 2/3;
-  margin-bottom: 50px;
-
-}
 
 section.slider {
   text-align: left;
@@ -178,7 +129,8 @@ img.route {
 }
 
 p.slider {
-  margin-left: 50px;
+  font-size: 15px;
+  margin-left: 16px;
   margin-top: -25px;
 }
 
@@ -187,4 +139,55 @@ img.slider {
   width: 51px;
   margin-top: -25px;
 margin-right: 16px;
+}
+
+div.bar {
+  padding: 11px 16px 11px 16px;
+  width: 343px;
+  height: 15px;
+  background-color: #F7F7F7;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+p.bar {
+  font-size: 15px;
+  text-align: left;
+}
+
+div.voice {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+img.man {
+  width: 50px;
+  grid-column: 1/2;
+  border-right: 1px solid #4a4a4a;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+img.woman {
+  width: 50px;
+  grid-column: 2/3;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+p.man {
+  grid-column: 1/2;
+  margin-top: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+p.woman {
+  grid-column: 2/3;
+  margin-top: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
