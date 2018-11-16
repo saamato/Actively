@@ -36,7 +36,7 @@ font-weight: 500;
   font-weight: 700;
   color: white;
   font-size: 16px;
-  font-weight: 600px;
+  font-weight: 600;
   width: 343px;
   height: 40px;
   background-color: #F46036;
@@ -73,8 +73,8 @@ footer.bottom {
   width: 375px;
   height: 49px;
   /* background-color: green; */
-  background-color: rgb(250, 250, 250, .9);
-  border-top: 1px solid rgb(74,74,74,.1);
+  background-color: rgba(250, 250, 250, .9);
+  border-top: 1px solid rgba(74,74,74,.1);
   bottom: 0;
   position: fixed;
 }
@@ -108,7 +108,7 @@ ul.exercises {
   /* padding-right: 16px; */
   padding-top: 18.5px;
   padding-bottom: 18.5px;
-  border-bottom: 1px solid rgb(74,74,74,.3);
+  border-bottom: 1px solid rgba(74,74,74,.3);
   margin-bottom: 18.5px;
 }
 
@@ -227,7 +227,7 @@ margin-bottom: 20px;
     text-transform: uppercase;
     line-height: .5em;
     text-align: left;
-    width: 375;
+    width: 375px;
     padding-left: 16px;
     padding-bottom: 8px;
     padding-top: 16px;
@@ -244,7 +244,7 @@ div element so I could get rid of the line at the top */
     /* letter-spacing: .3px; */
     text-transform: uppercase;
     line-height: .5em;
-    width: 375;
+    width: 375px;
     padding-left: 16px;
     padding-top: 16px;
     text-align: left;
@@ -254,7 +254,7 @@ div element so I could get rid of the line at the top */
   ul li.a{
     padding: 16px;
     height: 63px;
-    border-bottom: 1px solid rgb(74,74,74,.1);
+    border-bottom: 1px solid rgba(74,74,74,.1);
 
   }
 

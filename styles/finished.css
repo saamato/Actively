@@ -127,7 +127,7 @@ img.mapmain {
 section.distance {
   width: 375px;
   height: 64px;
-  background-color: rgb(74,74,74,.8);
+  background-color: rgba(74,74,74,.8);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -245,7 +245,7 @@ input[type=text], select {
     /* margin: 0px 0 20px; */
     background-color: white;
     /* display: inline-block; */
-    border: 1px solid rgb(74,74,74,0);
+    border: 1px solid rgba(74,74,74,0);
     box-sizing: border-box;
 }
 
