@@ -108,12 +108,13 @@ ul.exercises {
   /* padding-right: 16px; */
   padding-top: 18.5px;
   padding-bottom: 18.5px;
+  /* margin-left: 100px; */
   border-bottom: 1px solid rgba(74,74,74,.3);
   margin-bottom: 18.5px;
 }
 
 li.decision {
-  /* margin-left: 16px; */
+  /* margin-left: 1px; */
   margin-right: 33.45312309px;
   float: left;
 }
