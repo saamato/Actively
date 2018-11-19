@@ -421,10 +421,10 @@ h2.moving {
    section.panel.one, section.panel.three {
      /* grid-column: 1/5; */
      height: 100vh;
-     padding-top: 150px;
-     padding-right: 150px;
-     padding-left: 150px;
-     padding-bottom: 150px;
+     padding-top: 200px;
+     padding-right: 200px;
+     padding-left: 200px;
+     padding-bottom: 200px;
      background-color: white;
      margin-bottom: 400px;
 
@@ -434,10 +434,10 @@ h2.moving {
   section.panel.two {
     background-color: #F5D547;
     height: 100vh;
-    padding-top: 150px;
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-bottom: 150px;
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
     margin-bottom: 400px;
   }
 
@@ -493,6 +493,7 @@ h2.moving {
   p.right {
     grid-column: 3/5;
     margin-top: 10px;
+
   }
 
   h2.moving {
