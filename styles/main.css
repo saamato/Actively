@@ -421,7 +421,7 @@ h2.moving {
    section.panel.one, section.panel.three {
      /* grid-column: 1/5; */
      height: 100vh;
-     padding-top: 200px;
+     padding-top: 50px;
      padding-right: 200px;
      padding-left: 200px;
      padding-bottom: 200px;
@@ -434,7 +434,7 @@ h2.moving {
   section.panel.two {
     background-color: #F5D547;
     height: 100vh;
-    padding-top: 200px;
+    padding-top: 50px;
     padding-right: 200px;
     padding-left: 200px;
     padding-bottom: 200px;
