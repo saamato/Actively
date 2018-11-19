@@ -421,10 +421,10 @@ h2.moving {
    section.panel.one, section.panel.three {
      /* grid-column: 1/5; */
      height: 100vh;
-     padding-top: 100px;
-     padding-right: 100px;
-     padding-left: 100px;
-     padding-bottom: 100px;
+     padding-top: 150px;
+     padding-right: 150px;
+     padding-left: 150px;
+     padding-bottom: 150px;
      background-color: white;
      margin-bottom: 400px;
 
@@ -434,10 +434,10 @@ h2.moving {
   section.panel.two {
     background-color: #F5D547;
     height: 100vh;
-    padding-top: 100px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 150px;
     margin-bottom: 400px;
   }
 
@@ -448,7 +448,7 @@ h2.moving {
 
   .profile, .feed {
     padding-left: 50px;
-    width: 20%;
+    width: 25%;
     grid-column: 1/3;
 
   }
@@ -463,7 +463,7 @@ h2.moving {
   }
   .setgoals {
     padding-left: 50px;
-    width: 20%;
+    width: 25%;
     grid-column: 1/3;
 
   }
