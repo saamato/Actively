@@ -448,7 +448,7 @@ h2.moving {
 
   .profile, .feed {
     padding-left: 50px;
-    width: 30%;
+    width: 20%;
     grid-column: 1/3;
 
   }
@@ -463,7 +463,7 @@ h2.moving {
   }
   .setgoals {
     padding-left: 50px;
-    width: 30%;
+    width: 20%;
     grid-column: 1/3;
 
   }
